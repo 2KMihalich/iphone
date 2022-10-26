@@ -1,0 +1,13 @@
+.navigation__list {
+  display: flex;
+  gap: 50px;
+}
+.navigation__link:hover {
+  color: #2238ff;
+}
+
+@media (min-width: 1024px) {
+  .navigation__list {
+    gap: 84px;
+  }
+}
